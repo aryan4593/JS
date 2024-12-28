@@ -1,0 +1,16 @@
+• getAttribute( attr ) Ilto get the attribute value
+• setAttribute( attr, value ) Ilto set the attribute val th
+
+
+
+
+
+Insert Elements
+let el = document.createElement("div")
+• node.append( eI ) lladds at the end of node (inside)
+• node.prepend( el ) lladds at the start of node (inside)
+• node.before( eI ) lladds before the node (outside)
+• node.after( el ) lladds after the node (outside)
+
+
+node.remove() ; // to remove node

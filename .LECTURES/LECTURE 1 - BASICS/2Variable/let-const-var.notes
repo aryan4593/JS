@@ -1,0 +1,3 @@
+var - can be redeclared & updated , gloabal scope variable 
+let : variable can't be redeclared but can be updated , blocked scope
+const : can't redeclared or updated , blocked scoped

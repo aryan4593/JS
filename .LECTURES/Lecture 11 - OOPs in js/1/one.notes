@@ -1,0 +1,6 @@
+Prototypes in JS
+A javaScript object is an entity having state and behavior (properties and method).
+JS objects have a special property called prototype.
+We can set prototype using __proto__
+
+type of prototype is :  it is  a reference to an object

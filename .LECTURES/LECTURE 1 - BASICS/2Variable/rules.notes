@@ -1,0 +1,4 @@
+variables are case sensitive 
+only letters, digits, _ , $ is allowed as variables 
+letter or _ or $ should be first charectter
+reserved words can't be variable names

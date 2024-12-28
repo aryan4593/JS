@@ -1,0 +1,5 @@
+Async-Awalt
+async function always returns a promise.
+async function myFunc( ) {
+D-C'ræ
+await pauses the execution of its surrounding async function until the promise is settled.
