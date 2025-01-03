@@ -139,3 +139,19 @@ document.getElementById("previous").addEventListener('click' , ()=>{
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 })
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === ' ') {
+        if (masterPlay.classList.contains('fa-play-circle')) {
+            masterPlay.classList.remove('fa-play-circle');
+            masterPlay.classList.add('fa-pause-circle');
+            audioElement.play();  
+        } 
+        
+        else if (masterPlay.classList.contains('fa-pause-circle')) {
+            masterPlay.classList.remove('fa-pause-circle');
+            masterPlay.classList.add('fa-play-circle');
+            audioElement.pause();  
+        }
+    }
+});

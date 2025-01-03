@@ -20,8 +20,7 @@ async function checkWeather(cityEle) {
     temp.innerHTML = Math.round(data.main.temp) + `°C`;
     humidity.innerHTML = data.main.humidity +`%`;
     wind.innerHTML =  data.wind.speed +` km/h`; 
-    
-
+   
     let condition = data.weather[0].main;
     condition = condition.toLowerCase();
     console.log(condition);
